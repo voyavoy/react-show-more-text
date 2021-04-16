@@ -101,7 +101,7 @@ class ShowMoreText extends Component {
                     lines={!expanded && lines}
                     ellipsis={
                         <span>
-                            ...{' '}
+                            <br/>
                             <a
                                 href=''
                                 className={anchorClass}
